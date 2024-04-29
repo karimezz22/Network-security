@@ -1,0 +1,233 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.section {
+    background-color: rgba(119, 111, 111, 0.13);
+    width: 40%;
+    margin: 50px auto;
+    border-radius: 3%;
+    padding: 80px 70px;
+}
+
+.header {
+    text-align: center;
+    color: #7f6727;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.input {
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Segoe UI';
+}
+
+.alert {
+    color: #58151c;
+    word-wrap: break-word;
+
+}
+
+.fancy {
+    background-color: rgba(127, 103, 39, 1);
+    /* border: 2px solid #e2e2e2; */
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    /* float: right; */
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 1.25em 2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 13px;
+}
+
+.fancy::before {
+    content: " ";
+    width: 1.5625rem;
+    height: 2px;
+    background: black;
+    top: 50%;
+    left: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+    
+}
+
+.fancy .text {
+    font-size: 1.125em;
+    line-height: 1.33333em;
+    padding-left: 2em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.fancy .topKey {
+    height: 2px;
+    width: 1.5625rem;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: #000C1D;
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+
+.fancy .bottomKey1 {
+    height: 2px;
+    width: 1.5625rem;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: #000C1D;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy .bottomKey2{
+    height: 2px;
+    width: 0.625rem;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: #000C1D;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy:hover {
+    color: white;
+    background: #000C1D;
+    border: 2px solid #e2e2e2;
+}
+
+.fancy:hover::before {
+    width: 0.9375rem;
+    background: white;
+    
+}
+
+.fancy:hover .text {
+    color: white;
+    padding-left: 1.5em;
+}
+
+.fancy:hover .top-key {
+    left: -2px;
+    width: 0px;
+}
+
+.fancy:hover .bottom-key-1,
+.fancy:hover .bottom-key-2 {
+    right: 0;
+    width: 0;
+    
+}
+
+.containerbtns {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.forget{
+    text-align: center !important;
+}
+.forgettext{
+    color:  #e2e2e2;
+    transition: 0.3s;
+}
+.forgettext:hover{
+    color: #7f6727;
+}
+
+.signupbtn {
+    --b: 3px;
+    /* border thickness */
+    --s: .45em;
+    /* size of the corner */
+    --color: #e2e2e2;
+    font-weight: bold;
+    /* padding: calc(.2em + var(--s)) calc(.9em + var(--s)); */
+    padding: 10px 35px;
+    color: var(--color);
+    --_p: var(--s);
+    background: conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.signupbtn:hover,
+.signupbtn:focus-visible {
+    --_p: 0px;
+    outline-color: #ffffff;
+    outline-offset: .05em;
+}
+
+.signupbtn:active {
+    background: #ffffff;
+    color: #000000;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .section {
+        width: 90%;
+        /* Adjust width for smaller screens */
+        margin: 20px auto;
+        /* Reduce margins on smaller screens */
+        padding: 30px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .header {
+        font-size: 28px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .input {
+        font-size: 14px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .containerbtns {
+        /* flex-direction: column; */
+        /* Stack buttons vertically on small screens */
+        align-items: center;
+        /* Center buttons horizontally */
+        gap: 10px;
+        /* Add some space between buttons */
+    }
+}

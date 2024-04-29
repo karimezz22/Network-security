@@ -1,0 +1,18 @@
+.ant-modal-content {
+  background: linear-gradient(0deg, #021631 0%, #000915 100%);
+  color: #e5e7eb !important;
+}
+
+.ant-modal-header {
+  background-color: transparent !important;
+  color: #e5e7eb !important;
+}
+.ant-modal-title {
+  color: #e5e7eb !important;
+  font-size: 32px !important;
+  font-weight: bold !important;
+}
+
+.ant-modal-close {
+  color: #e5e7eb !important;
+}

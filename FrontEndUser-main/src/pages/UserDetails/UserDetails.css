@@ -1,0 +1,82 @@
+/* Container for user details */
+.user-details-container {
+    max-width: 600px;
+    margin: 50px auto; /* Center horizontally */
+    padding: 40px;
+    border: 1px solid #2c3e50; /* Darker border color */
+    border-radius: 10px;
+    background: linear-gradient(135deg, #2c3e50, #34495e); /* Dark gradient */
+    color: #ecf0f1; /* Light text color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Slightly stronger shadow */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container for loading and error messages */
+  .loading-container,
+  .error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  
+  /* Styling for loading and error messages */
+  .loading-container p,
+  .error-container p {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .error-container {
+    color: #e74c3c; /* Error text color */
+  }
+  
+  /* Title for user details */
+  .user-details-title {
+    margin-bottom: 20px;
+    font-size: 32px; /* Larger title */
+    font-weight: bold;
+  }
+  
+  /* Information section */
+  .user-details-info {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for each item */
+  .user-details-box {
+    background-color: #34495e; /* Darker background color */
+    padding: 10px; /* Padding around the box */
+    margin-bottom: 15px; /* Slightly more spacing between items */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Label for each item */
+  .user-details-label {
+    font-weight: bold;
+    color: #70c3ff; /* Light blue */
+  }
+  
+  /* Value for each item */
+  .user-details-value {
+    color: #fff; /* White */
+  }
+  
+  /* Back to home button */
+  .back-to-home-button {
+    display: inline-block;
+    padding: 15px 30px; /* Larger padding */
+    background-color: #3498db; /* Blue color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 18px; /* Larger font size */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .back-to-home-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  

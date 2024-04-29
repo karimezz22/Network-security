@@ -1,0 +1,62 @@
+{
+  "header": {
+    "Books": "Books",
+    "Brochures": "Brochures",
+    "Services": "Services",
+    "My_projects": "My projects",
+    "Log_in": "Log in"
+  },
+  "footer": {
+    "copyright": "all rights reserved © the electronic portal of the scientific calculation Center 2024"
+  },
+  "error": {
+    "error404": "Page Not Found",
+    "Go_Home": "Go Home"
+  },
+  "Home": {
+    "mYE": "Making you easy.",
+    "Helwan_Printing": "Helwan Printing Press",
+    "iIP": "Innovation in print.",
+    "content": "The site provides all kinds of printing, printing books, posters, paper, personal cards and catalogs",
+    "Know_More": "Know More",
+    "all_products": "All Products"
+  },
+  "About": {
+    "header": "Print everything you want from here easily ",
+    "divOne": "In the past, Helwan University students had to go outside the university to print books, banners, and other materials. However, now they can print anything they need within the university premises, including  banners, signs, cards, invitations, and books.",
+    "divTwo": "In 2024, we established a print shop to enhance the facilities at Helwan University. We work as a team to ensure that we provide everything necessary for the university's improvement. our aim to assist all students to print what they want promptly and efficiently. We offer tips, inspiration and access to experts to aid in achieving their goals.",
+    "divOneH1": "About us",
+    "divTwoH1": "The beginning...",
+    "ezEx": "Easy Access",
+    "justRight": "A “just-right” selection",
+    "printEv": "Print Every Things"
+  },
+  "Product": {
+    "Your_Details": "Your Details.",
+    "Make_Order": "Make an Order",
+    "Quantity": "Quantity",
+    "Upload_file": "Upload file",
+    "Send": "Send",
+    "Sending": "Sending...",
+    "Cancel": "Cancel"
+  },
+  "ModalMyPro": {
+    "Product": "Product",
+    "Details": "Details",
+    "Status": "Status",
+    "Waiting": "Waiting for a response",
+    "Accept": "Accepted",
+    "Deny": "Rejected",
+    "StatusOfAccept": "Status Of Order",
+    "Name": "Name",
+
+    "File_Name": "File Name",
+    "Quantity": "Quantity",
+    "My_Projects": "My Projects",
+    "Received": "Received",
+    "stat1": "You paid the bill for the book now will be printed.",
+    "stat2": "Printed of the book is finished.",
+    "stat3": "Covered of the book is finished.",
+    "stat4": "The book is ready."
+  }
+}

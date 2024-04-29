@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "GEOneLight";
+  src: url("/GE_SS_TEXT_LIGHT.otf") format("opentype");
+}
+@font-face {
+  font-family: "GETwoLight";
+  src: url("/ArbFONTS-GE-SS-Two-Light_28.otf") format("opentype");
+}
+@font-face {
+  font-family: "GEThreeLight";
+  src: url("/ArbFONTS-GE-SS-Three-Light_19.otf") format("opentype");
+}
+@font-face {
+  font-family: "GEBold";
+  src: url("/GE-SS-Text-Bold_26.otf") format("opentype");
+}
+@font-face {
+  font-family: "GEMed";
+  src: url("/GE-SS-Text-Medium.otf") format("opentype");
+}
+
+.fontOneLight {
+  font-family: "GEOneLight";
+}
+.fontTwoLight {
+  font-family: "GETwoLight";
+}
+.fontThreeLight {
+  font-family: "GEThreeLight";
+}
+
+.fontMed {
+  font-family: "GEMed";
+}
+
+.fontBold {
+  font-family: "GEBold";
+}
+
+.ant-select-selector {
+  background-color: transparent !important;
+  color: #e5e7eb !important;
+}
+.ant-select-selector:hover {
+  border-color: #7f6727 !important;
+}
+
+.ant-select-focused .ant-select-selector {
+  border-color: #7f6727 !important;
+  color: #e5e7eb !important;
+  box-shadow: none !important;
+}
+.ant-select-selection-item {
+  color: #e5e7eb !important;
+}
+
+:where(.css-dev-only-do-not-override-11xg00t).ant-steps
+  .ant-steps-item-process
+  .ant-steps-item-icon {
+  background-color: #7f6727 !important;
+  border-color: #7f6727 !important;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-steps
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #e5e7eb !important;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-steps
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #e5e7eb !important;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-steps
+  .ant-steps-item-finish
+  .ant-steps-item-icon
+  > .ant-steps-icon {
+  color: #000915 !important;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-steps
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background-color: #ffff !important;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-steps
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  background-color: #ffff !important;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-steps
+  .ant-steps-item-wait
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #e5e7eb !important;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-steps
+  .ant-steps-item-wait
+  .ant-steps-item-icon {
+  background-color: rgb(255 255 255 / 6%);
+  border-color: rgb(255 255 255 / 6%);
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-steps
+  .ant-steps-item-wait
+  .ant-steps-item-icon
+  > .ant-steps-icon {
+  color: #e5e7eb !important;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-steps.ant-steps-vertical
+  > .ant-steps-item
+  .ant-steps-item-icon:dir(rtl) {
+  float: right;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
